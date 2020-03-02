@@ -1,0 +1,62 @@
+body {
+  font-family: 'Fira Sans Light';
+  background-color: #f6f7f9;
+  font-size: .875rem;
+}
+
+.container {
+  height: 100vh;;
+}
+
+.fileinput-dropconsole {
+  /* display: block; */
+  padding: 2.5rem;
+  text-align: center;
+  color: #888c9b;
+  border-radius: .25rem;
+  border: 2px dashed rgba(34,34,48,.1);
+  transition: all .2s;
+  /* cursor: pointer; */
+}
+.fileinput-dropconsole.drop {
+  color: #a6abbd;
+  border-color: #a6abbd;
+}
+
+.fileinput-dropzone input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  direction: ltr;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.dropconsole-card .progress {
+  height: 3px;
+  background-color: #e6e8ed;
+}
+
+.dropconsole-card .progress .progress-bar {
+  width: 0;
+}
+
+.dropconsole-card .list-group-item-figure {
+  width: 2rem;
+  height: 2rem;
+  background-color: #e6e8ed;
+  margin-right: 1.25rem;
+  border-radius: .25rem;
+}
+
+.dropconsole-card .list-group-item-body {
+  flex: 1;
+}
+
+.dropconsole-card .list-group-item-figure img {
+  width: 100%;
+}
